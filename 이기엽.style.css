@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  margin: 0;
+}
+
+.welcome-text {
+  text-align: center;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  animation: fadeIn 2s ease-in-out;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.highlight {
+  color: #ffe082;
+  font-weight: 700;
+}
